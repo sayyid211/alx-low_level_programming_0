@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -E|cat CFILE| -o c
+gcc -E|cat $CFILE| -o c
