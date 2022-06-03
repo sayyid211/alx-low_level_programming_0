@@ -20,15 +20,15 @@ int main(void)
 	/* check the status of n*/
 	if (n == 0)
 	{
-		printf("%ld, is zero\n", &n);
+		printf("%i, is zero\n", &n);
 	}
 	else if (n > 0)
 	{
-		printf("%ld, is positive\n", &n);
+		printf("%i, is positive\n", &n);
 	}
 	else
 	{
-		printf("%ld, is negative\n", &n);
+		printf("%i, is negative\n", &n);
 	}
 	return (0);
 }
