@@ -16,8 +16,6 @@ int main(void)
 		putchar(x);
 		x++;
 	}
-	break;
-
 	while (y < 90)
 	{
 		putchar(y);
