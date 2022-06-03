@@ -1,19 +1,12 @@
 #include <stdio.h>
 /**
- * Program to print some text
+ * main - Entry point
  *
  * The entry point is the int main section
  * Prints about grammar and art
- * return 0 returns 0 from main
+ * Return: Always 0 (Sucess)
 */
-/**
- * main function is the program's entry point
- */
-int main(void)/* Entry point is main, return type is int*/
-{
+int main(void)
 	printf("with proper grammar, but the outcome is a piece of art,\n");
-	/**
-	 *return type for main
-	 */
 	return (0);
 }
