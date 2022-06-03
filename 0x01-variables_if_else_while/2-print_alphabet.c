@@ -11,8 +11,9 @@ int main(void)
 
 	while (x < (97+25))
 	{
-		putchar('%c\n', x);
+		putchar('%c', x);
 		x++;
 	}
+	putchar('\n');
 	return (0);
 }
