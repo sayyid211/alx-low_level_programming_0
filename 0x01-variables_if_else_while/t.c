@@ -1,8 +1,12 @@
 #include <stdio.h>
 int main(void)
 {
-	int x = 97;
-	printf("%c",x);
+	char x = a;
+	while (x < (x + 25)
+		{
+			printf("%c",x);
+			x++;
+		}
 	getchar();
 	return (0);
 }
