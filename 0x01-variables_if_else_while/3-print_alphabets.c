@@ -16,11 +16,12 @@ int main(void)
 		putchar(x);
 		x++;
 	}
-	while (y < 90)
+	do
 	{
 		putchar(y);
 		y++;
 	}
+	while (y < 90)
 	putchar('\n');
 	return (0);
 }
