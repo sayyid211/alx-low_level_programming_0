@@ -17,7 +17,7 @@ int main(void)
 		x++;
 	}
 
-	while (y < (y + 25))
+	while (y < 90)
 	{
 		putchar(y);
 		y++;
@@ -25,4 +25,3 @@ int main(void)
 	putchar('\n');
 	return (0);
 }
-			
