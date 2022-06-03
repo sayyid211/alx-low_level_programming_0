@@ -9,7 +9,7 @@ int main(void)
 {
 	int x = 97;
 
-	while (x < (97+25))
+	while (x < (97 + 26))
 	{
 		putchar(x);
 		x++;
