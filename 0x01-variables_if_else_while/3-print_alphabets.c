@@ -16,8 +16,8 @@ int main(void)
 		putchar(x);
 		x++;
 	}
-	
-	while (y < (y +25))
+
+	while (y < (y + 25))
 	{
 		putchar(y);
 		y++;
