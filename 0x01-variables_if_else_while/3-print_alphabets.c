@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <ctype.h>
+#include <stdlib.h>
 /**
  * main - Entry point
  *
@@ -12,7 +12,7 @@ int main(void)
 	char x = 'a';
 	char y = 'A';
 
-	while (x < (x +26))
+	while (x < (x + 26))
 	{
 		putchar(x);
 		x++;
