@@ -8,7 +8,7 @@
 
 int main(void)
 {
-	int x = 97;
+	int x = 65;
 	int y = 65;
 
 	do{
