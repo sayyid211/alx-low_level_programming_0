@@ -14,7 +14,11 @@ int main(void)
 	do{
 		putchar(x);
 		x++;
-	} while (x < (x + 26));
+        } while (x < (x + 26));
+	do{
+		putchar(y);
+		y++:
+	} while (y < (y + 26));
 	putchar('\n');
 	return (0);
 }
