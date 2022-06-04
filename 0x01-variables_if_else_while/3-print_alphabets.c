@@ -17,7 +17,7 @@ int main(void)
         } while (x < (x + 26));
 	do{
 		putchar(y);
-		y++:
+		y++;
 	} while (y < (y + 26));
 	putchar('\n');
 	return (0);
