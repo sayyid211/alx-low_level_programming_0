@@ -9,12 +9,18 @@
 
 int main(void)
 {
-	int x = 97;
+	char x = 'a';
+	char y = 'A';
 
 	while (x < (x +26))
 	{
 		putchar(x);
 		x++;
+	}
+	while (y < (y + 26))
+	{
+		putchar(y);
+		y++;
 	}
 	putchar('\n');
 	return (0);
