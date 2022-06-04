@@ -11,13 +11,10 @@ int main(void)
 	int x = 97;
 	int y = 65;
 
-	do
-	{
+	do{
 		putchar(x);
 		x++;
-		putchar(y);
-		y++;
-	}while (x < (x + 26));
+	} while (x < (x + 26));
 	putchar('\n');
 	return (0);
 }
