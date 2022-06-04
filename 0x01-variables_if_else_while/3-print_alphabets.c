@@ -8,15 +8,15 @@
 
 int main(void)
 {
-	int x = 65;
-	int y = 65;
+	int x = 97;
+	int y = 97;
 
 	do{
 		putchar(x);
 		x++;
         } while (x < (x + 26));
 	do{
-		putchar(y);
+		putchar(toupper(y));
 		y++;
 	} while (y < (y + 26));
 	putchar('\n');
