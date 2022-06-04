@@ -11,7 +11,7 @@ int main(void)
 
 	while (x < 16)
 	{
-		x = (%x[x]);
+		x = [16#]x;
 		putchar(x);
 		x++;
 	}
