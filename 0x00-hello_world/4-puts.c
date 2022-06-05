@@ -3,8 +3,6 @@
 /**
  * main - Entry point
  *
- * puts - does the printing job
- *
  * Return: Always 0 (success)
  */
 
