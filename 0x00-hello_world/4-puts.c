@@ -8,7 +8,5 @@
 int main(void)
 {
 	puts("\"programming is like building a multilingual puzzle");
-	puts("\n");
-
 	return (0);
 }
