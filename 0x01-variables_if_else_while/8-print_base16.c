@@ -16,7 +16,7 @@ int main(void)
 		x++;
 
 	}
-	while (y <= f)
+	while (y <= 'f')
 	{
 		putchar(y);
 		y++;
