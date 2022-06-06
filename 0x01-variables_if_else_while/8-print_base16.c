@@ -9,9 +9,8 @@ int main(void)
 {
 	int x = 0;
 
-	while (x < 16)
+	while ((%x, x) < f))
 	{
-		x = '%x, x';
 		putchar(x);
 		x++;
 	}
