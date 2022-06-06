@@ -7,9 +7,9 @@
  */
 int main(void)
 {
-	int x = 0;
+	int x = "ox0";
 
-	while ((%x, x) < f))
+	while (x < f)
 	{
 		putchar(x);
 		x++;
