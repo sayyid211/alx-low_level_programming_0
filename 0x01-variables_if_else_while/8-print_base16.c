@@ -7,9 +7,9 @@
  */
 int main(void)
 {
-	unsigned char x=ox0;
+	int x = 0;
 
-	while (x < f)
+	while (x <= 9)
 	{
 		putchar(x);
 		x++;
