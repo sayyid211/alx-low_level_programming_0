@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	int x = ox0;
+	char x = 'ox0';
 
 	while (x < f)
 	{
