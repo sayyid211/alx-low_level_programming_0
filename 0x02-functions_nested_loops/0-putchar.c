@@ -1,17 +1,19 @@
 #include "main.h"
 /**
- * main - Entry point
+ * printchar - print given string
  *
- * _putchar - prints characters to the display
  * Return: 0
  */
+int printchar(int x)
+{
 
-const char* _putchar(char* c)
-{
-	return (c);
-}
-int main(void)
-{
-	_putchar("_putchar\n");
+	char stg[]="_putchar";
+	x = 0;
+
+	while (x < 8)
+	{
+		_putchar(stg[x]);
+		X++;
+	}
 	return (0);
 }
