@@ -13,7 +13,7 @@ int printchar(int x)
 	while (x < 8)
 	{
 		_putchar(stg[x]);
-		X++;
+		x++;
 	}
 	return (0);
 }
