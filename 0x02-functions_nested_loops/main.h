@@ -1,1 +1,2 @@
-int _putchar(char c);
+const char* _putchar(char* c);
+
