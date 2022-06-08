@@ -3,9 +3,9 @@
  * print_last_digit - prints the last digit of a decimal number
  * Return: returns the input's last digit
  */
-int print_last_digit(int)
+int print_last_digit(int n, int x)
 {
 	int n;
-	int last_digit = n%10;
-	return (last_digit);
+	int x = n%10;
+	return (x);
 }
