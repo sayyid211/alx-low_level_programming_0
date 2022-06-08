@@ -10,10 +10,10 @@ void print_alphabet_x10(void)
 
 	while (line_count < 10)
 	{
-		do {
+		for(alpha = 0; alpha <= 'z'; alpha++)
+		{
 			_putchar(alpha);
-			alpha++;
-		}while (alpha <= 'z');
+		}
 		_putchar('\n');
 		line_count++;
 	}
