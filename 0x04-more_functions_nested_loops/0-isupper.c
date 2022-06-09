@@ -7,7 +7,7 @@
  */
 int _isupper(int c)
 {
-	if (char(c) < 'a')
+	if (c < 97)
 	{
 		return (1);
 	}
