@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * _isupper - checks the case of alphabets
  * @c: argument to be tested
