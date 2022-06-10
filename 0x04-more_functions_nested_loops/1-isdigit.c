@@ -3,7 +3,7 @@
  * _isdigit - checks if input is a digit
  *-Return: 1 for true, 0 for false
  */
-_isupper(int c )
+_isupper(int c)
 {
 	if (c <= 48 <= 57)
 		return (1);
