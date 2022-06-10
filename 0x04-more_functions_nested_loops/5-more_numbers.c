@@ -5,13 +5,9 @@
 void more_numbers(void)
 {
 	int x;
-	char nr[10] = "1011121314";
+	char nr[] = "01234567891011121314";
 
-	for (x = 48; x <= 57; x++)
-	{
-		_putchar(x);
-	}
-	for (x = 0; x <= 10; x++)
+	for (x = 0; x <= 20; x++)
 	{
 		_putchar(nr[x]);
 	}
