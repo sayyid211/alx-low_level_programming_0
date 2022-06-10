@@ -1,6 +1,7 @@
 #include "main.h"
 /**
  * more_numbers - print numbers 0 to 14 x 10
+ * Return: 0
  */
 void more_numbers(void)
 {
@@ -11,5 +12,6 @@ void more_numbers(void)
 	{
 		_putchar(nr[x]);
 	}
+	_putchar('\n');
 	_putchar('\n');
 }
