@@ -5,15 +5,15 @@
 void more_numbers(void)
 {
 	int x;
-	int y;
+	char nr[10] = "1011121314";
 
-	for (x = 0; x < 9; x++)
+	for (x = 48; x <= 57; x++)
 	{
 		_putchar(x);
 	}
-	for (y = 0; y < 14; y += 10)
+	for (x = 0; x <= 10; x++)
 	{
-		_putchar(y);
+		_putchar(nr[x]);
 	}
 	_putchar('\n');
 }
