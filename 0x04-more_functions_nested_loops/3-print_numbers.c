@@ -4,12 +4,12 @@
  */
 void print_numbers(void)
 {
-	char x;
+	char x = 0;
 	int count = 0;
 
 	while (count < 2)
 	{
-		for (x = '0'; x <= '9'; x++)
+		for (; x <= '9'; x++)
 		{
 			_putchar(x);
 		}
