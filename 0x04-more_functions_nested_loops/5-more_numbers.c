@@ -11,7 +11,7 @@ void more_numbers(void)
 
 	for (; n < 10; n++)
 	{
-		for (x = 0; x <= 21; x++)
+		for (x = 0; x < 21; x++)
 		{
 			_putchar(nr[x]);
 		}
