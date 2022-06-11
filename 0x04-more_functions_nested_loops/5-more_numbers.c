@@ -5,13 +5,12 @@
  */
 void more_numbers(void)
 {
-	int n;
+	int n = 0;
 	int x;
+	char nr[] = "01234567891011121314\n";
 
-	for (n = 0; n < 10; n++)
+	for (; n < 10; n++)
 	{
-		char nr[] = "01234567891011121314\n";
-
 		for (x = 0; x <= 21; x++)
 		{
 			_putchar(nr[x]);
