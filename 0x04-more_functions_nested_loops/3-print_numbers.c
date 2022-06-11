@@ -4,7 +4,7 @@
  */
 void print_numbers(void)
 {
-	char c = '0';
+	char x = '0';
 
 	for (; x <= '9'; x++)
 	{
