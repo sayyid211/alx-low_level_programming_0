@@ -22,5 +22,6 @@ void printchar(void)
 int main(void)
 {
 	printchar();
+	_putchar('\n');
 	return (0);
 }
