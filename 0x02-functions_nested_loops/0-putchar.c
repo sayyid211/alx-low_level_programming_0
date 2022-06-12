@@ -1,10 +1,8 @@
 #include "main.h"
 /**
  * printchar - print given string
- *
- * Return: 0
  */
-int printchar(void)
+void printchar(void)
 {
 
 	char stg[] = "_putchar";
@@ -15,5 +13,14 @@ int printchar(void)
 		_putchar(stg[x]);
 		x++;
 	}
+}
+/**
+ * main - entry point
+ * Return: 0
+ */
+
+int main(void)
+{
+	printchar();
 	return (0);
 }
