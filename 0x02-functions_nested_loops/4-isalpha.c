@@ -8,15 +8,5 @@
 
 int _isalpha(int c)
 {
-	switch (c)
-	{
-	case (c >= 65 && c <= 90):
-		return (1);
-		break;
-	case (c >= 97 && c <= 122):
-		return (1);
-		break;
-	default:
-		return (0);
-	}
+	return ((c >= 65 && c <= 90) && (c >= 97 && c <= 122));
 }
