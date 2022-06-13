@@ -2,7 +2,7 @@
 /**
  * reset_to_98 - assign new value to poiner's value
  *
- *@*n: argument
+ *@n: argument
  */
 void reset_to_98(int *n)
 {
