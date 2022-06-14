@@ -6,13 +6,15 @@
 void puts2(char *str)
 {
 	int x = 0;
+	iny y = 0;
 
-	while (*(str + x) != 0 && *str != 0)
+	while (*(str + x) != 0)
 	{
-		_putchar(*(str + x));
-		x = x + 2;
-		if (*str == '\0')
-			break;
+		x++;
+	}
+	while (y <= x)
+		_putchar(*(str + y));
+		y = y + 2;
 	}
 	_putchar('\n');
 }
