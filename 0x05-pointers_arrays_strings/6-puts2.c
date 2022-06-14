@@ -11,7 +11,7 @@ void puts2(char *str)
 	{
 		_putchar(*(str + x));
 		x = x + 2;
-		if (*str == '\' || *str == '\0')
+		if (*str == '\0')
 			break;
 	}
 	_putchar('\n');
