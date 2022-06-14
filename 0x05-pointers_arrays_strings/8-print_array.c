@@ -9,7 +9,7 @@ void print_array(int *a, int n)
 	int x = 0;
 	for (;x <= n; x++)
 	{
-		printf(*(a + x));
+		_putchar(*(a + x));
 		printf(", ");
 		printf("\n");
 	}
