@@ -13,6 +13,7 @@ void puts2(char *str)
 		x++;
 	}
 	while (y <= x)
+	{
 		_putchar(*(str + y));
 		y = y + 2;
 	}
