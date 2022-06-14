@@ -12,9 +12,10 @@ void puts2(char *str)
 	{
 		x++;
 	}
-	while (y <= x)
+	while (y < x)
 	{
 		_putchar(*(str + y));
 		y = y + 2;
 	}
+	_putchar('\n');
 }
