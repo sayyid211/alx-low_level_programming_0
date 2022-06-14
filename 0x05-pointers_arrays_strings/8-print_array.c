@@ -11,6 +11,6 @@ void print_array(int *a, int n)
 	{
 		_putchar(*(a + x));
 		printf(", ");
-		printf("\n");
-	}
+      	}
+	printf("\n");
 }
