@@ -9,7 +9,8 @@ void print_array(int *a, int n)
 	int x = 0;
 	for (;x <= n; x++)
 	{
-		printf("%p, ",&a);
+		printf(*(a + x));
+		printf(", ");
 		printf("\n");
 	}
 }
