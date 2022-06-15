@@ -7,11 +7,16 @@
 void print_array(int *a, int n)
 {
 	int x = 0;
+	int i = 0;
 
-	for (;x < n; x = x + 4)
+	for (; x < n; x++)
 	{
-		_putchar(*(a + 1));
-		printf(", ");
-      	}
+		while (*(a + i) != 0)
+		{
+			_putchar(*(a + i));
+			printf(", ");
+			i += 4;
+		}
+	}
 	printf("\n");
 }
