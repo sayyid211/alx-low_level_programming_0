@@ -15,7 +15,7 @@ void print_array(int *a, int n)
 		{
 			_putchar(a[i]);
 			printf(", ");
-			i++;
+			i += 4;
 		}
 	}
 	printf("\n");
