@@ -13,9 +13,9 @@ void print_array(int *a, int n)
 	{
 		while (*(a + i) != 0)
 		{
-			_putchar(*(a + i));
+			_putchar(a[i]);
 			printf(", ");
-			i += 4;
+			i++;
 		}
 	}
 	printf("\n");
