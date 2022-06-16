@@ -19,7 +19,7 @@ int _strcmp(char *s1, char *s2)
 	}
 	else
 	{
-	    	x = 15;
+		x = 15;
 	}
 	return (x);
 }
