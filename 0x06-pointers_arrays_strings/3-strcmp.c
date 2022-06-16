@@ -21,6 +21,5 @@ int _strcmp(char *s1, char *s2)
 	{
 		x = 15;
 	}
-	_putchar(x);
-	_putchar('\n');
+	return (x);
 }
