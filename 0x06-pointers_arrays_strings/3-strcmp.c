@@ -7,19 +7,19 @@
  */
 int _strcmp(char *s1, char *s2)
 {
+	int x;
+
 	if (*s1 == *s2)
 	{
-		return (0);
-		_putchar('\n');
+		x = 0;
 	}
 	else if (*s1 < *s2)
 	{
-		return (-15);
-		_putchar('\n');
+		x = -15;
 	}
 	else
 	{
-		return (15);
-		_putchar('\n');
+	    	x = 15;
 	}
+	return (x);
 }
