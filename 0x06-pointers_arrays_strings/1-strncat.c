@@ -3,25 +3,33 @@
  * _strncat - concatenates strings
  * @dest: destination str
  * @src: source of second str
+ * @n: limiter variable
  * Return: conc str
  */
 char *_strncat(char *dest, char *src, int n)
 {
+	int _strlen(char *s);
+
 	/* get dest size*/
 	int x = _strlen(dest);
-
-	/* variable to hold index of src */
-	int y = x - 1;
+	/* initialize counter for looping through src */
 	int i = 0;
 
 	/* loop through src, appending elements to dest */
-	while (y != 0)
+	while (*(src + i) != '\0')
 	{
-		*(dest + y) = *(src + i);
-		y++;
-		i++;
+		if (i <= n)
+		{
+			*(dest + x) = *(src + i);
+			x++;
+			i++;
+		}
+		else
+		{
+			break;
+		}
 	}
-	return (*dest);
+	return (dest);
 }
 
 /**
