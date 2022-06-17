@@ -18,7 +18,7 @@ char *_strncat(char *dest, char *src, int n)
 	/* loop through src, appending elements to dest */
 	while (*(src + i) != '\0')
 	{
-		if (i <= n)
+		if (i < n)
 		{
 			*(dest + x) = *(src + i);
 			x++;
@@ -26,7 +26,7 @@ char *_strncat(char *dest, char *src, int n)
 		}
 		else
 		{
-			*(dest + x) = '\n';
+			/*(dest + x) = '\n';*/
 			break;
 		}
 	}
