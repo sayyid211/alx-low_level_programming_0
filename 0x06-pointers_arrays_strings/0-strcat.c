@@ -1,41 +1,38 @@
 #include "main.h"
+
 /**
  * _strcat - concatenates strings
  * @dest: destination str
  * @src: source of second str
  * Return: conc str
  */
-char *_strncat(char *dest, char *src)
+
+char *_strcat(char *dest, char *src)
 {
+	int _strlen(char *s);
 	/* get dest size*/
 	int x = _strlen(dest);
 
 	/* variable to hold index of src */
-	int y = x - 1;
 	int i = 0;
 
 	/* loop through src, appending elements to dest */
-	while (y != 0)
+	while (*(src + i) != '\0')
 	{
-		*(dest + y) = *(src + i);
-		y++;
+		*(dest + x) = *(src + i);
+		x++;
 		i++;
 	}
-	return (*dest);
+	return (dest);
 }
 
-/**
- * _strlen - computes the length of a string
- * @s: argument, pointer int to string array
- * Return: size of string array
- */
 int _strlen(char *s)
 {
-	int i = 0;
+	int c = 0;
 
-	while (*(s + i) != 0)
+	while (*(s + c) != 0)
 	{
-		i++;
+		c++;
 	}
-	return (i);
+	return (c);
 }
