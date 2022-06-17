@@ -26,6 +26,7 @@ char *_strncat(char *dest, char *src, int n)
 		}
 		else
 		{
+			*(dest + x) = '\n';
 			break;
 		}
 	}
