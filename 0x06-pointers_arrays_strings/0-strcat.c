@@ -26,6 +26,12 @@ char *_strcat(char *dest, char *src)
 	return (dest);
 }
 
+/**
+ * _strlen - return length of string
+ * @s: arg for len
+ * Return: int len
+ */
+
 int _strlen(char *s)
 {
 	int c = 0;
