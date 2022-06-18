@@ -1,4 +1,5 @@
 #include "main.h"
+#include <limits.h>
 /**
  * print_last_digit - prints the last digit of a decimal number
  * @n: Argument to function
@@ -13,6 +14,11 @@ int print_last_digit(int n)
 		x = 48 + (n % 10);
 		_putchar(x);
 		return (n % 10);
+	}
+	else if (n == INT_MIN)
+	{
+		x = 48 + 8;
+		return (8);
 	}
 	else
 	{
