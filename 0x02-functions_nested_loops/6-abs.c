@@ -3,15 +3,10 @@
  * _abs - computes the absolute value of an integer
  */
 
-int _abs(int)
-{
-	int retabs(int r);
-	retabs();
-}
-int retabs(int r)
+int _abs(int r)
 {
 	int r;
-	
+
 	if (r < 0)
 	{
 		return (r / -1);
