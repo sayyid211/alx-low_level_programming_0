@@ -5,14 +5,12 @@
 
 int _abs(int)
 {
-	int x;
-
-	if (x < 0)
+	if (r < 0)
 	{
-		return (x / -1);
+		return (r / -1);
 	}
 	else
 	{
-		return (x);
+		return (r);
 	}
 }
