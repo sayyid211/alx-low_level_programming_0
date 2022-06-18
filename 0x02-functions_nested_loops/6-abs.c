@@ -5,8 +5,6 @@
 
 int _abs(int r)
 {
-	int r;
-
 	if (r < 0)
 	{
 		return (r / -1);
