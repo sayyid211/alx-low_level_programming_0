@@ -18,6 +18,7 @@ int print_last_digit(int n)
 	else if (n == INT_MIN)
 	{
 		x = 48 + 8;
+		_putchar(x);
 		return (8);
 	}
 	else
