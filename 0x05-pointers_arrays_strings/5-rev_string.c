@@ -7,13 +7,14 @@
 void rev_string(char *s)
 {
 	int x = 0;
-	int z = 1;
-	char *tp = char(*s);
+	int z = 0;
+	char *tp = 0;
 
-	while (*(tp + x) != '\0')
+	while (*(s + x) != '\0')
 	{
 		x++;
 	}
+	*tp = *s;
 	while (x != 0)
 	{
 		*(s + z) = *(tp + x);
