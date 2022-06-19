@@ -8,18 +8,16 @@ void rev_string(char *s)
 {
 	int x = 0;
 	int z = 1;
+	char *tp = *s;
 
-	while (*(s + x) != '\0')
+	while (*(tp + x) != '\0')
 	{
 		x++;
 	}
-	char *tmp = *(s + x);
-
 	while (x != 0)
 	{
-		*(tmp + z) = *(s + x);
+		*(s + z) = *(tp + x);
 		x--;
 		z++;
 	}
-	*s = *tmp;
 }
