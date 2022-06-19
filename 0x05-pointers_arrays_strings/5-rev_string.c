@@ -7,20 +7,18 @@
 void rev_string(char *s)
 {
 	int x = 0;
-	int y;
 	int z = 0;
 	char *tmp = 0;
 
-	while (*(s + x) != 0)
+	while (*(s + x) != '\0')
 	{
 		x++;
 	}
 
-	y = x;
-	while (y >= 0)
+	while (x != 0)
 	{
-		*(tmp + z) = *(s + y);
-		y--;
+		*(tmp + z) = *(s + x);
+		x--;
 		z++;
 	}
 	*s = *tmp;
