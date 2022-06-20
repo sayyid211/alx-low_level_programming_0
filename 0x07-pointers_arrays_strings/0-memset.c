@@ -4,7 +4,7 @@
  * @s: mem location
  * @b: const to write
  * @n: number of mem bytes to modify
- * Return; memory contents
+ * Return: memory contents
  */
 
 char *_memset(char *s, char b, unsigned int n)
