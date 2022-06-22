@@ -1,0 +1,1 @@
+#getting started with recursion in c. recursion happens when a function calls it self# we need to get deeper
