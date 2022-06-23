@@ -19,13 +19,14 @@ int is_prime_number(int n)
 	{
 		return (1);
 	}
-	return(prime(n, i));
+	return (prime(n, i));
 }
 
 /**
  * prime - checks for primality wrt x
  * @n: numerator
  * @x: denominator
+ * Return: true or false
  */
 
 int prime(int n, int x)
@@ -34,9 +35,9 @@ int prime(int n, int x)
 	{
 		return (0);
 	}
-	if (x <= n /2)
+	if (x <= n / 2)
 	{
-		return(prime(n, x + 1));
+		return (prime(n, x + 1));
 	}
 	return (1);
 }
