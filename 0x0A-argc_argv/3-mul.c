@@ -10,7 +10,8 @@
 
 int main(int argc, char **argv)
 {
-	int x, y;
+	int x;
+	int y;
 
 	if (argc < 3)
 	{
@@ -20,8 +21,11 @@ int main(int argc, char **argv)
 	}
 	else
 	{
-		long a = (long)*argv[1];
-		long b = (long)*argv[2];
+		int a;
+		int b;
+
+		sscanf (argv[1],"%d",&a);
+		sscanf (argv[2],"%d",&b);
 
 		y = a * b;
 		printf("%d\n", y);
