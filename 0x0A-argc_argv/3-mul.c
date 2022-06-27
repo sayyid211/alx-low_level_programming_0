@@ -24,8 +24,8 @@ int main(int argc, char **argv)
 		int a;
 		int b;
 
-		kstrto < int > (argv[1], "%d", &a);
-		kstrto < int > (argv[2], "%d", &b);
+		sscanf(argv[1], "%d", &a);
+		sscanf(argv[2], "%d", &b);
 
 		y = a * b;
 		printf("%d\n", y);
