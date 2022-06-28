@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "main.h"
+#include <stdlib.h>
 
 /**
  * main - entry point
@@ -21,12 +22,8 @@ int main(int argc, char **argv)
 	}
 	else
 	{
-		int a;
-		int b;
-
-		sscanf(argv[1], "%d", &a);
-		sscanf(argv[2], "%d", &b);
-
+		int a = atoi(argv[1]);
+		int b = atoi(argv[2]);
 		y = a * b;
 		printf("%d\n", y);
 		x = 0;
