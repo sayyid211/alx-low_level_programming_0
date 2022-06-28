@@ -19,22 +19,23 @@ int main(int argc, char **argv)
 	{
 		int x = atoi(argv[i]);
 
-		if (__builtin_types_compatible_p(typeof(x), int) == 0)
+		if (!x)
+		{
+			printf("0\n");
+			y = 0;
+		}
+
+		else if (__builtin_types_compatible_p(typeof(x), int))
+		{
+			sum += x;
+			y = 0;
+		}
+		else
 		{
 			printf("Error\n");
 			y = 1;
 			break;
 		}
-		else if (argv[1] == NULL)
-		{
-			printf("0\n");
-			y = 0;
-		}
-		else
-		{
-			y = 0;
-		}
-		sum += x;
 	}
 	printf("%d\n", sum);
 	return (y);
