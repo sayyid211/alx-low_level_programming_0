@@ -24,11 +24,10 @@ char *_strdup(char *str)
 		{
 			copy[i] = str[i];
 		}
-		if (copy == NULL)
+		if (size == NULL)
 			return (NULL);
 		return (copy);
 	}
-	return (NULL);
 }
 
 /**
