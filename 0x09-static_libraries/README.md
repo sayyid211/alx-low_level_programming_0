@@ -1,0 +1,1 @@
+Static libraries makes linking a lot easier for the compiler. It speeds up compilation and saves memory.
