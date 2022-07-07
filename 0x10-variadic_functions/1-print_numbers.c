@@ -11,7 +11,7 @@
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
 	va_list list;
-	unsigned int x = 1;
+	unsigned int x = 0;
 
 	va_start(list, n);
 	while (x <= n)
@@ -22,5 +22,5 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 		x++;
 	}
 	_putchar('\n');
-	va_end (list);
+	va_end(list);
 }
