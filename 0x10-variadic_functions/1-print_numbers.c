@@ -20,6 +20,8 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 		x++;
 		if (separator != NULL)
 			printf("%s", separator);
+		else
+			break;
 	}
 	printf("\n");
 	va_end(list);
