@@ -20,19 +20,19 @@ void print_all(const char * const format, ...)
 	va_start(val, format);
 	while (counter < val_num)
 	{
-		switch(format[counter])
+		switch (format[counter])
 		{
 		case 'c':
 			p = va_arg(val, int);
-			printf("%c", p);
+			printf("%c, ", p);
 			break;
 		case 'f':
 			q = va_arg(val, double);
-			printf("%f", q);
+			printf("%f, ", q);
 			break;
 		case 'i':
 			r = va_arg(val, int);
-			printf("%d", r);
+			printf("%d, ", r);
 			break;
 		case 's':
 			s = va_arg(val, char *);
@@ -42,7 +42,7 @@ void print_all(const char * const format, ...)
 			}
 			else
 			{
-				printf("%s", s);
+				printf("%s, ", s);
 			}
 			break;
 		default:
